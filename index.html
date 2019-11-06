@@ -1,90 +1,66 @@
 <!doctype html>
-<html lang="es-co">
+<html>
 <head>
 <meta charset="utf-8">
 <title>Untitled Page</title>
-<meta name="generator" >
-<link href="src/font-awesome.min.css" rel="stylesheet">
-<link href="src/Untitled1.css" rel="stylesheet">
+<meta name="generator" content="">
+<link href="src/Trabajo_Final.css" rel="stylesheet">
 <link href="src/index.css" rel="stylesheet">
-<script src="src/jquery-1.12.4.min.js"></script>
-<script src="src/transition.min.js"></script>
-<script src="src/collapse.min.js"></script>
-<script src="src/dropdown.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $(document).on('click','.ThemeableMenu1-navbar-collapse.in',function(e)
-   {
-      if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) 
-      {
-         $(this).collapse('hide');
-      }
-   });
-});
-</script>
 </head>
 <body>
 <div id="container">
-<div id="wb_Text1" style="position:absolute;left:15px;top:106px;width:940px;height:36px;text-align:center;z-index:1;">
-<h1>Presentación del Curso</h1></div>
-<div id="Layer1" style="position:absolute;text-align:left;left:331px;top:1px;width:642px;height:89px;z-index:2;">
-<div id="wb_ThemeableMenu1" style="position:absolute;left:27px;top:19px;width:597px;height:52px;z-index:1000;">
-<div id="ThemeableMenu1" class="ThemeableMenu1" style="width:100%;height:auto !important;">
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ThemeableMenu1-navbar-collapse">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-</div>
-<div class="ThemeableMenu1-navbar-collapse collapse">
-<ul class="nav navbar-nav">
-<li class="">
-<a href="#header">Inicio</a>
-</li>
-<li class="">
-<a href="http://">Lecturas</a>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">Multimedia<b class="caret"></b></a>
-<ul class="dropdown-menu">
-<li><a href="http://">Podcasts</a></li>
-<li><a href="http://">Videos</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">Actividades<b class="caret"></b></a>
-<ul class="dropdown-menu">
-<li><a href="http://">Actividades 1 y 2</a></li>
-<li><a href="http://">Actividades 3 y 4</a></li>
-<li><a href="http://">Actividades 5 y 6</a></li>
-</ul>
-</li>
-<li class="">
-<a href="http://">Autores</a>
-</li>
-</ul>
-</div>
-</div>
-</div></div>
-</div>
-<div id="wb_YouTube1" style="position:absolute;left:134px;top:223px;width:630px;height:354px;z-index:3;">
+<div id="wb_YouTube1" style="position:absolute;left:165px;top:231px;width:660px;height:371px;z-index:1;">
 <iframe id="YouTube1" src="https://www.youtube.com/embed/D8BXx4nj49Q?rel=1&amp;autohide=0"></iframe>
 </div>
-<div id="wb_Text2" style="position:absolute;left:5px;top:160px;width:965px;height:45px;text-align:justify;z-index:4;">
-<span style="color:#000000;font-family:'Courier New';font-size:13px;">En este curso aprenderemos gratis a maquetar sitios Web con HTML5 y a brindar estilos con CSS. No necesitas conocimientos previos, pues empezaremos desde cero con una serie de ejemplos prácticos y al término del curso, desarrollaremos un proyecto real en el cual aplicaremos todo lo aprendido</span></div>
-<div id="wb_Image1" style="position:absolute;left:3px;top:1px;width:327px;height:86px;z-index:5;">
-<img src="images/logoUNAD2015.png" id="Image1" alt=""></div>
-<div id="Layer3" style="position:absolute;text-align:left;left:3px;top:611px;width:970px;height:57px;z-index:6;">
+<div id="wb_Text2" style="position:absolute;left:0px;top:143px;width:970px;height:54px;z-index:2;">
+<span style="color:#000000;font-family:'Courier New';font-size:16px;">En este curso aprenderemos gratis a maquetar sitios Web con HTML5 y a brindar estilos con CSS. No necesitas conocimientos previos, pues empezaremos desde cero con una serie de ejemplos prácticos y al término del curso, desarrollaremos un proyecto real en el cual aplicaremos todo lo aprendido.</span></div>
+<div id="wb_Text1" style="position:absolute;left:302px;top:86px;width:386px;height:36px;z-index:3;">
+<h1>Presentación del Curso</h1></div>
+<div id="wb_ResponsiveMenu1" style="position:absolute;left:249px;top:0px;width:738px;height:71px;z-index:4;">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menu<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li><a role="menuitem" href="./index.html">Inicio</a></li>
+<li>
+<label for="ResponsiveMenu1-submenu-0" class="toggle">Lecturas<b class="arrow-down"></b></label>
+<a role="menuitem" href="#">Lecturas<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-0">
+<ul role="menu">
+<li><a role="menuitem" href="./hmtl5.html">Html5</a></li>
+<li><a role="menuitem" href="./estructurabasica.html">Estructura&nbsp;b&#225;sica&nbsp;de&nbsp;Html5</a></li>
+<li><a role="menuitem" href="./css3.html">CSS3</a></li>
+<li><a role="menuitem" href="./selectoresCSS.html">Selectores&nbsp;CSS</a></li>
+<li><a role="menuitem" href="./gitHub.html">GitHub</a></li>
+</ul>
+</li>
+<li>
+<label for="ResponsiveMenu1-submenu-1" class="toggle">Multimedia<b class="arrow-down"></b></label>
+<a role="menuitem" href="#">Multimedia<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-1">
+<ul role="menu">
+<li><a role="menuitem" href="./Podcast.html">Podcasts</a></li>
+<li><a role="menuitem" href="./Videos.html">Videos</a></li>
+</ul>
+</li>
+<li>
+<label for="ResponsiveMenu1-submenu-2" class="toggle">Actividades<b class="arrow-down"></b></label>
+<a role="menuitem" href="#">Actividades<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-2">
+<ul role="menu">
+<li><a role="menuitem" href="./actividades1.html">Actividades&nbsp;1&nbsp;y&nbsp;2</a></li>
+<li><a role="menuitem" href="./actividades2.html">Actividades&nbsp;3&nbsp;y&nbsp;4</a></li>
+<li><a role="menuitem" href="./actividades3.html">Actividades&nbsp;5&nbsp;y&nbsp;6</a></li>
+</ul>
+</li>
+<li><a role="menuitem" href="./autores.html">Autores</a></li>
+</ul>
 </div>
-<div id="wb_Text3" style="position:absolute;left:15px;top:635px;width:965px;height:15px;text-align:justify;z-index:7;">
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:251px;height:66px;z-index:5;">
+<img src="images/logoUNAD2015.png" id="Image1" alt=""></div>
+<div id="Layer1" style="position:absolute;text-align:left;left:0px;top:1149px;width:978px;height:54px;z-index:6;">
+<div id="wb_Text3" style="position:absolute;left:4px;top:22px;width:970px;height:15px;z-index:0;">
 <span style="color:#FFFFFF;font-family:'Courier New';font-size:13px;">Diseño de Sitios Web - Grupo 74 @ Todos los Derechos Reservados - 2019</span></div>
 </div>
-<section id="Layer2" style="position:absolute;overflow:auto;text-align:center;left:970px;top:157px;width:100%;height:66px;z-index:8;">
-<div id="Layer2_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
-</section>
 </body>
 </html>
